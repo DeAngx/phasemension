@@ -6,22 +6,24 @@ Inside the locked frame (`concepts/00-locked-frame.md`). These phases do not reo
 
 ## Phase A — Unit and ledger
 
-**Status:** Partially locked.
+**Status:** Closed.
 
-Joules are adopted as the first calculable unit. Observation vs intervention is formalized with a conservation audit.
+Joules are the first calculable unit. Observation vs intervention is formalized. The energy audit rule is locked in [`concepts/energy-audit-rule.md`](../concepts/energy-audit-rule.md).
 
-Still open:
+Valid audit requires kinetic contribution (or explicit zero), configurational/potential contribution, and a full intervention log. Conservation check is mandatory.
 
-- Is energy sufficient as the sole ledger, or do geometry / topology / information require independent accounts that do not fully reduce to Joules?
-- What is the minimal state vector that must be sampled so that the energy calculation is meaningful for the class of transitions we care about (density shift, interface stabilization, soft → ordered)?
+Residual (not blocking):
 
-**Exit criterion:** A short written rule for what must be in the state vector for an energy audit to be considered valid in this project.
+- Whether energy is sufficient as the sole ledger, or geometry / topology / information need independent accounts.
+- Per-transition-class refinements of the state vector.
+
+**Exit criterion:** Met.
 
 ---
 
 ## Phase B — Terrestrial forcing
 
-**Status:** Promissory.
+**Status:** Promissory. Next.
 
 Constraint #3 says Earth systems are the primary data. The abstract language has not yet been required to answer to a specific real process.
 
@@ -66,7 +68,7 @@ Work:
 
 **Status:** Not started.
 
-Only after A–D have enough structure to keep the experiment inside the frame.
+Only after B–D have enough structure to keep the experiment inside the frame.
 
 Candidate toys (from earlier notes):
 
@@ -88,9 +90,9 @@ Holding pattern: append use-ideas to a list; do not expand them into design driv
 
 ## Suggested order
 
-A (finish unit/ledger rules) → B (terrestrial forcing) → C (sharpen what is tracked) → D (representation contract) → E (first experiment).
+A (closed) → B (terrestrial forcing) → C (sharpen what is tracked) → D (representation contract) → E (first experiment).
 
-B can run in parallel with finishing A. C and D depend on A and B. E depends on all prior.
+C and D depend on A and B. E depends on prior structure.
 
 ---
 
