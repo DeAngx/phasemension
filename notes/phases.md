@@ -42,12 +42,13 @@ Inside the locked frame (`concepts/00-locked-frame.md`).
 
 ## Phase G — Discrete Euclidean units
 
-**Status:** Closed (g0). Deepened (g1).
+**Status:** Closed and extended.
 
-- [`experiments/g0-euclidean-cubes/`](../experiments/g0-euclidean-cubes/) — volume φ, face-gated transfer
-- [`experiments/g1-face-state/`](../experiments/g1-face-state/) — first-class faces, interface order σ, contact pairs, `E = E_config + E_interface`
+- g0 cubes — face-gated volume transfer
+- g1 faces — interface order σ, contact pairs
+- g2 polygons — squares/triangles, **edge** adjacency (2D). Vertex-only ≠ contact
 
-Geometry is law. Skip-neighbor transfer and contact both rejected. Audit PASS.
+[`experiments/g0-euclidean-cubes/`](../experiments/g0-euclidean-cubes/) · [`g1-face-state/`](../experiments/g1-face-state/) · [`g2-polygons/`](../experiments/g2-polygons/)
 
 ---
 
@@ -55,6 +56,8 @@ Geometry is law. Skip-neighbor transfer and contact both rejected. Audit PASS.
 
 **Status:** Closed. [`experiments/h0-harness/`](../experiments/h0-harness/)
 
+**G+H combine:** [`experiments/gh-harness-chain/`](../experiments/gh-harness-chain/) — hold packet on chain, face hops, skip rejected. PASS.
+
 ---
 
-*A–H closed. Euclidean line: g0 + g1. Frame intact.*
+*A–H closed. Euclidean line g0–g2 + gh. Frame intact.*
