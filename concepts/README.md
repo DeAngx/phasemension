@@ -8,6 +8,7 @@ Keep entries short and load-bearing. Prefer clarity over completeness.
 
 - [`00-locked-frame.md`](00-locked-frame.md) — stance, constraints summary, core distinctions (energy unit, observation vs intervention, harness, density, change)
 - [`observation-vs-intervention.md`](observation-vs-intervention.md) — do-calculus boundary, Joule ledger, conservation audit, relation to harness and retreat
+- [`energy-audit-rule.md`](energy-audit-rule.md) — Phase A exit: minimal state vector for a valid energy audit (kinetic + configurational + intervention log)
 
 ## Still open (see notes/phases.md)
 
@@ -16,4 +17,4 @@ Keep entries short and load-bearing. Prefer clarity over completeness.
 - sustained non-default configurations / harness energetics beyond the basic statement
 - phase / topology / organization as selectable
 - what "room-like" fabrication means in abstract terms
-- whether energy is the sole ledger or geometry/topology/information need independent accounts
+- whether energy is the sole ledger or geometry/topology/information need independent accounts (residual from Phase A)
