@@ -28,4 +28,16 @@ The work stays oriented toward that class of possibility: multi-axis control of 
 
 ---
 
-More constraints will be added here as we set them.
+## #3 — Terrestrial / intra-planetary systems as the primary model
+
+The data and models we lean on are things that already exist under the surface and in the hydrosphere: water, crystals, pressure regimes, phase behavior across depth, connected volumes, and the ways Earth already moves and reorganizes matter at planetary scale.
+
+Four classical stages of matter are not enough. The work needs a more intra-planetary system understanding — something that can speak about continuous density, geometry, and connectivity across the volume of the planet rather than treating surface and subsurface as separate domains.
+
+One concrete orientation: what would make a tunnel from one end of the Earth to the other *conceptually coherent*? Not as engineering fantasy, but as a question about density, pressure, phase, geometry, and sustained pathways through a planetary interior. If we can reach even a partial conceptual space where that question has structure, working backward from it becomes interesting.
+
+Earth already contains the phenomena. They are just spread across many fields. The link being sought is a way of reading those distributed facts as one system of addressable, reorganizable matter.
+
+---
+
+These three set the frame. Additional constraints can be added later if needed.
