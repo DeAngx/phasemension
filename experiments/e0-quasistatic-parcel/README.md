@@ -1,18 +1,36 @@
-# e0 — Quasi-static two-phase H₂O-like parcel (Phase E design — Locked)
+# e0 — Quasi-static two-phase H₂O-like parcel (Phase E — Closed)
 
-First computational experiment. Design is locked; implementation can be revised or replaced later. Other experiments can be added under `experiments/` without reopening this design.
+First computational experiment. Design and implementation locked for v0. Can be revised or replaced later.
+
+---
+
+## Files
+
+| File | Role |
+|------|------|
+| `parcel.py` | Parcel state, pure observation, `do_set_phase_fraction`, conservation audit |
+| `run_audit.py` | Demo sequence; exits non-zero on audit failure |
+
+```bash
+cd experiments/e0-quasistatic-parcel
+python run_audit.py
+# → PASS
+```
 
 ---
 
 ## What it is
 
-A single control volume (parcel) that can sit in phase A (liquid-like) or phase B (high-pressure-ice-like), or a mixture defined by a phase fraction \(\phi \in [0,1]\).
+A single control volume (parcel) with phase fraction \(\phi \in [0,1]\).
+
+- \(\phi = 0\) → liquid-like
+- \(\phi = 1\) → high-pressure-ice-like
 
 ## State vector (Phases A + C)
 
 | Quantity | Role |
 |----------|------|
-| \(\phi\) | phase fraction (0 = liquid-like, 1 = ice-like) |
+| \(\phi\) | phase fraction |
 | \(\rho(\phi)\) | density between \(\rho_L\) and \(\rho_S\) |
 | \(E_{\text{config}}(\phi)\) | configurational energy = latent + PV stand-in |
 | \(E_{\text{kin}}\) | declared 0 (quasi-static) |
@@ -20,18 +38,11 @@ A single control volume (parcel) that can sit in phase A (liquid-like) or phase 
 
 ## Observation (pure, no side effects)
 
-- `get_phase()` / phase fraction
-- `get_density()`
-- `get_config_energy()`
-- `get_total_energy()`
-
-Energy must not drift under pure observation.
+`get_phase()`, `get_density()`, `get_config_energy()`, `get_total_energy()`, `get_kinetic_energy()`
 
 ## Intervention
 
-- `do_set_phase_fraction(φ_new)` — sole state-changing op for v0
-- Computes \(\Delta E = E_{\text{config}}(\phi_{\text{new}}) - E_{\text{config}}(\phi_{\text{old}})\) and appends to intervention log
-- No silent overrides
+`do_set_phase_fraction(φ_new)` — computes and logs \(\Delta E\). No silent overrides.
 
 ## Conservation audit
 
@@ -39,7 +50,7 @@ Energy must not drift under pure observation.
 E_obs(t0) + Σ ΔE_intervention = E_obs(t1)
 ```
 
-Run after every intervention. Fail if violated beyond declared tolerance.
+Verified: residual 0 on demo sequence; observation purity holds.
 
 ## Declared scope (Phase D)
 
@@ -47,13 +58,6 @@ Run after every intervention. Fail if violated beyond declared tolerance.
 - Does **not** claim to be ice, Earth, or programmable matter
 - Does **not** implement harness
 - Does **not** resolve spatial interfaces or kinetics
-
-## Exit criterion
-
-- Runnable (script or notebook)
-- Observation functions pure; every intervention logs ΔE
-- Audit passes on a short sequence of phase-fraction changes
-- Describable in locked vocabulary without embarrassment
 
 ## Non-goals for v0
 
@@ -64,4 +68,4 @@ Run after every intervention. Fail if violated beyond declared tolerance.
 
 ---
 
-*Design locked. Implementation is the remaining work to fully close Phase E.*
+*Phase E exit met for e0.*
