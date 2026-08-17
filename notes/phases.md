@@ -30,28 +30,30 @@ Quasi-static H₂O boundaries: phase/density + configurational energy at audit v
 
 **Status:** Closed. [`concepts/representation-contract.md`](../concepts/representation-contract.md)
 
-Code tracks declared relations under an energy audit; it does not become the thing. Failure = silent energy change, undefined primary quantity, or claim beyond scope.
-
-Contract may be revised later from experiment data, failures, and breakthroughs.
+Code tracks declared relations under an energy audit; it does not become the thing. Revisable from experiment.
 
 ---
 
 ## Phase E — First computational experiment
 
-**Status:** Next.
+**Status:** Design locked. Implementation pending.
 
-Must obey A–D: energy audit, observation vs intervention, phase/density + configurational tracking, representation contract.
+Design: [`experiments/e0-quasistatic-parcel/README.md`](../experiments/e0-quasistatic-parcel/README.md)
 
-Harness only as explicit logged intervention if present at all.
+Toy: single parcel, phase fraction φ, configurational energy (latent + PV stand-in), pure observation, `do_set_phase_fraction` with logged ΔE, conservation audit.
 
-**Exit criterion:** One runnable sketch that obeys the audit and contract, and can be described in the locked vocabulary without embarrassment.
+No harness, no spatial field, no claim to be the material.
+
+**Full close:** Runnable sketch; audit passes; describable in locked vocabulary without embarrassment.
+
+Design may be changed or replaced; other experiments can be added.
 
 ---
 
 ## Phase F — Use (deferred)
 
-Record use-ideas; do not steer mechanism work until post E.
+Record use-ideas; do not steer mechanism work until post E implementation.
 
 ---
 
-*A–D closed. Frame locked. Phase E is next.*
+*A–D closed. E design locked. Next: implement e0.*
