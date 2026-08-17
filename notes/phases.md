@@ -14,6 +14,8 @@ Inside the locked frame (`concepts/00-locked-frame.md`).
 
 **Status:** Closed. [`terrestrial/hydrosphere/high-pressure-ice-forcing.md`](../terrestrial/hydrosphere/high-pressure-ice-forcing.md)
 
+Harness not found in nature for this process — constructive only.
+
 ---
 
 ## Phase C — What is tracked during the transition
@@ -42,18 +44,20 @@ Inside the locked frame (`concepts/00-locked-frame.md`).
 
 ## Phase G — Discrete Euclidean units (cubes)
 
-**Status:** Closed.
-
-[`experiments/g0-euclidean-cubes/`](../experiments/g0-euclidean-cubes/)
-
-Cubes as parcels with geometry. Face adjacency only. State transfer = intervention with logged ΔE. Chain wave + 2×2 grid audits PASS. Diagonal transfer rejected.
-
-```
-Σ E_cube(t0) + Σ ΔE_intervention = Σ E_cube(t1)   residual 0
-```
-
-Not Minecraft. Not harness. Parallel to the water anchor.
+**Status:** Closed. [`experiments/g0-euclidean-cubes/`](../experiments/g0-euclidean-cubes/)
 
 ---
 
-*A–G closed. Frame intact. Further experiments optional.*
+## Phase H — Harness as costed intervention
+
+**Status:** Closed.
+
+[`experiments/h0-harness/`](../experiments/h0-harness/) — constructive harness only.
+
+Hold off ambient: power `κ|φ − φ_ambient|`, each tick logs ΔE into `E_dissipated`.  
+Hold at ambient: cost ≈ 0.  
+`E_obs = E_config + E_dissipated`. Audit PASS. Not a natural Earth harness.
+
+---
+
+*A–H closed. Frame intact.*
