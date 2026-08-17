@@ -1,8 +1,10 @@
-# High-pressure ice / water phase boundaries — terrestrial forcing (Phase B draft)
+# High-pressure ice / water phase boundaries — terrestrial forcing (Phase B — Locked)
 
 Process chosen: high-pressure solid phases of H₂O (Ice VI, VII, X and related) and their boundaries with liquid water under planetary interior conditions.
 
 Goal: force the locked phasemension vocabulary against a real Earth system without invention. Record where the language fits, where it is silent, and where it breaks.
+
+**Status: Locked.** Water / hydrosphere is accepted as the primary terrestrial anchor for the project.
 
 ---
 
@@ -87,12 +89,15 @@ The locked interest in memory across soft → ordered transitions is *not contra
 
 ---
 
-## 5. Consequence for the frame
+## 5. Consequence for the frame (road ahead)
 
 This process is a strong terrestrial example of **driven density and phase under extreme boundary conditions** with a clean energy account. It is a weak or null example of **harness** and of **density sustained against ambient preference**.
 
-Phase B exit for *this* process: the write-up exists; fits and breaks are explicit. Further Phase B work can pick a second process (e.g. anisotropic crystal growth under stress, or melt migration) if a positive example of harness-like behavior is needed, or accept that harness remains an abstract / artificial construct not yet forced by Earth systems.
+**Accepted adjustments:**
 
----
+- Water / hydrosphere remains the primary terrestrial data source. Further work in this domain is welcome.
+- **Harness is treated as an artificial / constructive concept** until a natural process forces it positively, or until it is explicitly introduced in a computational experiment as a controlled intervention with a visible Joule cost. It is not smuggled in as something Earth already does in this system.
+- “Density held against ambient preference” is likewise constructive, not terrestrial-default.
+- Terms that fit (driven density, observation vs intervention, Joule ledger) are strengthened and may be used freely when talking about water-phase systems.
 
-*Draft for Phase B. Not a lock until reviewed.*
+Phase B exit criterion: met for this process.
