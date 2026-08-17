@@ -13,9 +13,9 @@ Use is secondary to mechanism. This file is a pen, not a steering wheel.
    - expanding it does not require inventing new physics or silent interventions, **and**
    - the representation contract still holds (code tracks relations; does not become the thing).
 
-3. **Use does not rewrite A–E.** Holding or discussing a use-idea never changes energy audit rules, terrestrial forcing, transition tracking, or the representation contract by drift.
+3. **Use does not rewrite locked mechanism.** Holding or discussing a use-idea never changes energy audit rules, terrestrial forcing, transition tracking, or the representation contract by drift.
 
-4. **Blocked means blocked.** Ideas that depend on harness or non-default density hold (still constructive) stay on the list but are not promoted until those terms are forced or introduced as explicit intervention with logged Joule cost.
+4. **Natural vs constructive harness.** Natural planetary harness remains unforced (Phase B). Constructive costed harness is mechanized in Phase H (`h0`) — still not a product claim.
 
 ---
 
@@ -23,13 +23,12 @@ Use is secondary to mechanism. This file is a pen, not a steering wheel.
 
 | Idea (one line) | Depends on | Status |
 |-----------------|------------|--------|
-| Clearer energy accounting for lab phase-change experiments | A, C, E (audit) | Mechanism ready enough to *discuss* |
+| Clearer energy accounting for lab phase-change experiments | A, C, E | Mechanism ready enough to *discuss* |
 | Teaching/demo of observation vs intervention in continuum toys | A, D, E | Mechanism ready |
-| Anything that needs a natural “harness” | Harness | **Blocked** — constructive only |
-| Volume-addressable / room-like fabrication | Harness + multi-axis density control | **Blocked** — far downstream |
+| Demo of hold-cost vs ambient (teaching) | H (`h0`) | Mechanism ready to *discuss* — not promoted |
+| Anything that needs a **natural** harness | Nature / B | **Blocked** — not forced by terrestrial water |
+| Volume-addressable / room-like fabrication | H + multi-axis density + more | **Blocked** — far downstream |
 | Through-volume pathway coherence (conceptual) | B + pathways | Open as *question*, not use-driver |
-
-Add rows as ideas appear. Do not expand rows into design drivers without an explicit open.
 
 ---
 
@@ -42,4 +41,4 @@ Add rows as ideas appear. Do not expand rows into design drivers without an expl
 
 ---
 
-*Phase F structure locked. Promotion of any item requires a deliberate decision.*
+*Promotion of any item requires a deliberate decision.*
