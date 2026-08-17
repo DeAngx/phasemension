@@ -14,8 +14,6 @@ Inside the locked frame (`concepts/00-locked-frame.md`).
 
 **Status:** Closed. [`terrestrial/hydrosphere/high-pressure-ice-forcing.md`](../terrestrial/hydrosphere/high-pressure-ice-forcing.md)
 
-Harness not found in nature for this process — constructive only.
-
 ---
 
 ## Phase C — What is tracked during the transition
@@ -42,22 +40,21 @@ Harness not found in nature for this process — constructive only.
 
 ---
 
-## Phase G — Discrete Euclidean units (cubes)
+## Phase G — Discrete Euclidean units
 
-**Status:** Closed. [`experiments/g0-euclidean-cubes/`](../experiments/g0-euclidean-cubes/)
+**Status:** Closed (g0). Deepened (g1).
+
+- [`experiments/g0-euclidean-cubes/`](../experiments/g0-euclidean-cubes/) — volume φ, face-gated transfer
+- [`experiments/g1-face-state/`](../experiments/g1-face-state/) — first-class faces, interface order σ, contact pairs, `E = E_config + E_interface`
+
+Geometry is law. Skip-neighbor transfer and contact both rejected. Audit PASS.
 
 ---
 
 ## Phase H — Harness as costed intervention
 
-**Status:** Closed.
-
-[`experiments/h0-harness/`](../experiments/h0-harness/) — constructive harness only.
-
-Hold off ambient: power `κ|φ − φ_ambient|`, each tick logs ΔE into `E_dissipated`.  
-Hold at ambient: cost ≈ 0.  
-`E_obs = E_config + E_dissipated`. Audit PASS. Not a natural Earth harness.
+**Status:** Closed. [`experiments/h0-harness/`](../experiments/h0-harness/)
 
 ---
 
-*A–H closed. Frame intact.*
+*A–H closed. Euclidean line: g0 + g1. Frame intact.*
