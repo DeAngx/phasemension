@@ -14,13 +14,11 @@ Inside the locked frame (`concepts/00-locked-frame.md`).
 
 **Status:** Closed. [`terrestrial/hydrosphere/high-pressure-ice-forcing.md`](../terrestrial/hydrosphere/high-pressure-ice-forcing.md)
 
-Water = primary terrestrial anchor. Harness and non-default density hold are constructive.
-
 ---
 
 ## Phase C — What is tracked during the transition
 
-**Status:** Closed (first class). [`concepts/transition-tracking.md`](../concepts/transition-tracking.md)
+**Status:** Closed. [`concepts/transition-tracking.md`](../concepts/transition-tracking.md)
 
 ---
 
@@ -44,20 +42,18 @@ Water = primary terrestrial anchor. Harness and non-default density hold are con
 
 ## Phase G — Discrete Euclidean units (cubes)
 
-**Status:** Design locked. Implementation in progress / runnable.
+**Status:** Closed.
 
 [`experiments/g0-euclidean-cubes/`](../experiments/g0-euclidean-cubes/)
 
-Cubes as parcels with geometry. Face adjacency only. State transfer across a shared face is an intervention with logged ΔE. System audit:
+Cubes as parcels with geometry. Face adjacency only. State transfer = intervention with logged ΔE. Chain wave + 2×2 grid audits PASS. Diagonal transfer rejected.
 
 ```
-Σ E_cube(t0) + Σ ΔE_intervention = Σ E_cube(t1)
+Σ E_cube(t0) + Σ ΔE_intervention = Σ E_cube(t1)   residual 0
 ```
 
-Not Minecraft. Not harness. Parallel mechanism line to the water anchor.
-
-**Exit:** multi-cube transfer sequence + conservation PASS + diagonal transfer rejected.
+Not Minecraft. Not harness. Parallel to the water anchor.
 
 ---
 
-*A–F closed. G locked. Frame intact.*
+*A–G closed. Frame intact. Further experiments optional.*
