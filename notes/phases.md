@@ -36,14 +36,14 @@ Water = primary terrestrial anchor. Harness and non-default density hold are con
 
 [`experiments/e0-quasistatic-parcel/`](../experiments/e0-quasistatic-parcel/) — quasi-static parcel; `python run_audit.py` → **PASS**.
 
-Observation pure; every intervention logs ΔE; conservation residual 0.
+---
+
+## Phase F — Use
+
+**Status:** Structure locked. Promotion of any item requires a deliberate decision.
+
+[`notes/use-holding.md`](use-holding.md) — holding list + gate. Use is a pen, not a steering wheel. Does not rewrite A–E.
 
 ---
 
-## Phase F — Use (deferred)
-
-Record use-ideas; holding pattern until deliberately opened.
-
----
-
-*A–E closed. Frame locked. Further experiments optional.*
+*A–F structure complete. Frame locked. Further experiments optional.*
