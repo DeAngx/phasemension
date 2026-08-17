@@ -10,13 +10,6 @@ Inside the locked frame (`concepts/00-locked-frame.md`). These phases do not reo
 
 Joules are the first calculable unit. Observation vs intervention is formalized. The energy audit rule is locked in [`concepts/energy-audit-rule.md`](../concepts/energy-audit-rule.md).
 
-Valid audit requires kinetic contribution (or explicit zero), configurational/potential contribution, and a full intervention log. Conservation check is mandatory.
-
-Residual (not blocking):
-
-- Whether energy is sufficient as the sole ledger, or geometry / topology / information need independent accounts.
-- Per-transition-class refinements of the state vector.
-
 **Exit criterion:** Met.
 
 ---
@@ -27,13 +20,11 @@ Residual (not blocking):
 
 Primary process: high-pressure ice / water phase boundaries. Write-up locked in [`terrestrial/hydrosphere/high-pressure-ice-forcing.md`](../terrestrial/hydrosphere/high-pressure-ice-forcing.md).
 
-**Fits:** density as driven; observation vs intervention; Joule ledger (latent heat + PV work).
+**Fits:** density as driven; observation vs intervention; Joule ledger.
 
-**Breaks / silent:** harness; density held against ambient preference (sustained states here are local equilibrium, not non-equilibrium hold).
+**Breaks / silent:** harness; density held against ambient preference.
 
-**Open:** memory across soft → ordered (liquid → high-pressure ice).
-
-**Road adjustment:** Water / hydrosphere is the primary terrestrial anchor. Harness and “non-default density hold” are treated as constructive/artificial until positively forced by another process or introduced explicitly in an experiment with visible Joule cost.
+**Road adjustment:** Water = primary terrestrial anchor. Harness and non-default density hold are constructive until positively forced or introduced as explicit intervention with Joule cost.
 
 **Exit criterion:** Met.
 
@@ -41,19 +32,26 @@ Primary process: high-pressure ice / water phase boundaries. Write-up locked in 
 
 ## Phase C — What is tracked during the transition
 
-**Status:** Next. Narrowed by A and B.
+**Status:** Closed (first transition class).
 
-We know attention belongs to the interval of change. Energy flux and phase/density state are now hard candidates for water-phase transitions. Harness/constraint-set is not supplied by the terrestrial example.
+Locked statement in [`concepts/transition-tracking.md`](../concepts/transition-tracking.md).
 
-**Exit criterion:** A single, testable statement of the form: "During a controlled transition of type T, the primary quantity being tracked is X, sampled at resolution Y."
+For quasi-static H₂O phase-boundary crossings, primary quantities tracked:
 
-Suggested T for first statement: quasi-static H₂O phase boundary crossing (liquid ↔ Ice VI/VII or solid–solid).
+1. Phase / density state of the parcel
+2. Configurational energy change (latent heat + PV work)
+
+Sampled at the energy-audit control volume. Kinetic ~0 unless dynamic; harness only if explicit intervention.
+
+Other transition types may define their own statements later.
+
+**Exit criterion:** Met for this T.
 
 ---
 
 ## Phase D — Representation limits
 
-**Status:** Named but not tested.
+**Status:** Next.
 
 Code represents relations; it is not the thing. Failure modes beyond the energy audit are not yet operationalized.
 
@@ -65,13 +63,7 @@ Code represents relations; it is not the thing. Failure modes beyond the energy 
 
 **Status:** Not started.
 
-Should respect Phase B findings: if a harness term appears, it must be an explicit intervention with logged ΔE, not a silent stand-in for planetary equilibrium.
-
-Candidate toys:
-
-- phase-field or simple density model of an H₂O-like phase boundary with full Joule audit
-- anisotropic growth / faceting with energy accounting
-- explicit harness term only if treated as continuous intervention cost
+Should respect A–C: phase/density + configurational energy sampled at audit volume; harness only as explicit logged intervention.
 
 **Exit criterion:** One runnable sketch that obeys the observation/intervention boundary and the conservation audit, and that can be described in the locked vocabulary without embarrassment.
 
@@ -79,13 +71,13 @@ Candidate toys:
 
 ## Phase F — Use (deferred)
 
-Use-questions are recorded when they appear. They are not allowed to steer mechanism work until the mechanism has more structure (post E at earliest).
+Use-questions recorded when they appear; no steering until post E.
 
 ---
 
 ## Suggested order
 
-A (closed) → B (closed) → C → D → E. F deferred.
+A → B → C closed. Next: D → E. F deferred.
 
 ---
 
