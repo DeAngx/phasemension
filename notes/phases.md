@@ -32,18 +32,32 @@ Water = primary terrestrial anchor. Harness and non-default density hold are con
 
 ## Phase E — First computational experiment
 
-**Status:** Closed.
-
-[`experiments/e0-quasistatic-parcel/`](../experiments/e0-quasistatic-parcel/) — quasi-static parcel; `python run_audit.py` → **PASS**.
+**Status:** Closed. [`experiments/e0-quasistatic-parcel/`](../experiments/e0-quasistatic-parcel/)
 
 ---
 
 ## Phase F — Use
 
-**Status:** Structure locked. Promotion of any item requires a deliberate decision.
-
-[`notes/use-holding.md`](use-holding.md) — holding list + gate. Use is a pen, not a steering wheel. Does not rewrite A–E.
+**Status:** Structure locked. [`notes/use-holding.md`](use-holding.md)
 
 ---
 
-*A–F structure complete. Frame locked. Further experiments optional.*
+## Phase G — Discrete Euclidean units (cubes)
+
+**Status:** Design locked. Implementation in progress / runnable.
+
+[`experiments/g0-euclidean-cubes/`](../experiments/g0-euclidean-cubes/)
+
+Cubes as parcels with geometry. Face adjacency only. State transfer across a shared face is an intervention with logged ΔE. System audit:
+
+```
+Σ E_cube(t0) + Σ ΔE_intervention = Σ E_cube(t1)
+```
+
+Not Minecraft. Not harness. Parallel mechanism line to the water anchor.
+
+**Exit:** multi-cube transfer sequence + conservation PASS + diagonal transfer rejected.
+
+---
+
+*A–F closed. G locked. Frame intact.*
