@@ -5,7 +5,8 @@ Code sketches under the locked frame.
 ## Closed
 
 - [`e0-quasistatic-parcel/`](e0-quasistatic-parcel/) — **Phase E.** Single parcel. Audit PASS.
-- [`g0-euclidean-cubes/`](g0-euclidean-cubes/) — **Phase G.** Cubes, face-only transfer, system ledger. Audit PASS. Diagonal rejected.
+- [`g0-euclidean-cubes/`](g0-euclidean-cubes/) — **Phase G.** Cubes, face-only transfer. Audit PASS.
+- [`bridge-invariance/`](bridge-invariance/) — Two regimes, one spine. Audit PASS both. Non-adjacent rejected.
 
 ## Later candidates
 
