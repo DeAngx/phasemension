@@ -1,12 +1,10 @@
 # experiments
 
-Code sketches and computational toys.
-
-Nothing here is required to be production-grade. The point is to test whether a conceptual idea can be made to move under the locked frame (energy audit, observation vs intervention, representation contract).
+Code sketches and computational toys under the locked frame.
 
 ## Active
 
-- [`e0-quasistatic-parcel/`](e0-quasistatic-parcel/) — Phase E design locked. Single parcel, phase fraction, configurational energy, intervention log, conservation audit. Implementation pending.
+- [`e0-quasistatic-parcel/`](e0-quasistatic-parcel/) — **Phase E closed.** Single parcel, phase fraction, configurational energy, intervention log, conservation audit. `python run_audit.py` → PASS.
 
 ## Later candidates
 
